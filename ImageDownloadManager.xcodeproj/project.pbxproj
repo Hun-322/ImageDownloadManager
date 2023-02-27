@@ -43,17 +43,57 @@
 		04503A27BC7E1662568F636E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54494D4829AB8A3600D8D2F2 /* Products */,
+				DC4771BC98522BDA480875F0 /* Pods */,
 				2C20C6160591D20CA882E8D4 /* Pods_ImageDownloadManager.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		541AD4BE29ACE5D5001D66E6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				54494D4A29AB8A3600D8D2F2 /* AppDelegate.swift */,
+				54494D4C29AB8A3600D8D2F2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		541AD4BF29ACE5EB001D66E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		541AD4C029ACE603001D66E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		541AD4C129ACE60D001D66E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				54494D4E29AB8A3600D8D2F2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		541AD4C229ACE6D2001D66E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54494D5329AB8A3700D8D2F2 /* Assets.xcassets */,
+				54494D5529AB8A3700D8D2F2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		54494D3E29AB8A3600D8D2F2 = {
 			isa = PBXGroup;
 			children = (
 				54494D4929AB8A3600D8D2F2 /* ImageDownloadManager */,
-				54494D4829AB8A3600D8D2F2 /* Products */,
-				DC4771BC98522BDA480875F0 /* Pods */,
 				04503A27BC7E1662568F636E /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -69,11 +109,11 @@
 		54494D4929AB8A3600D8D2F2 /* ImageDownloadManager */ = {
 			isa = PBXGroup;
 			children = (
-				54494D4A29AB8A3600D8D2F2 /* AppDelegate.swift */,
-				54494D4C29AB8A3600D8D2F2 /* SceneDelegate.swift */,
-				54494D4E29AB8A3600D8D2F2 /* ViewController.swift */,
-				54494D5329AB8A3700D8D2F2 /* Assets.xcassets */,
-				54494D5529AB8A3700D8D2F2 /* LaunchScreen.storyboard */,
+				541AD4BE29ACE5D5001D66E6 /* App */,
+				541AD4BF29ACE5EB001D66E6 /* Models */,
+				541AD4C029ACE603001D66E6 /* Views */,
+				541AD4C129ACE60D001D66E6 /* Controllers */,
+				541AD4C229ACE6D2001D66E6 /* Resources */,
 				54494D5829AB8A3700D8D2F2 /* Info.plist */,
 			);
 			path = ImageDownloadManager;
@@ -85,7 +125,6 @@
 				DBF0A4A9C3FA3C78F2BD2AEC /* Pods-ImageDownloadManager.debug.xcconfig */,
 				14E8AC516C7B1A636EE2CD6C /* Pods-ImageDownloadManager.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
