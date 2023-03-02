@@ -37,7 +37,6 @@ class ViewController: UIViewController {
     let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
-//        cv.backgroundColor = .systemPink
         return cv
     }()
     
@@ -74,7 +73,7 @@ class ViewController: UIViewController {
 extension ViewController: UICollectionViewDataSource {
     // 섹션에 표시할 셀의 개수를 묻는 메서드
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return imageModel.ImageListDatas.count
     }
     
     // 컬렉션뷰의 지정된 위치에 표시할 셀을 요청하는 메서드
