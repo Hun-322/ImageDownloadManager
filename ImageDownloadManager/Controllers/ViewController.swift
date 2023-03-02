@@ -10,6 +10,7 @@ import SnapKit
 
 class ViewController: UIViewController {
     let imageDownloadCollectionViewCellIdentifier = "ImageDownloadCollectionViewCell"
+    let imageModel = ImageModel()
     
     // MARK: - viewDidLoad()
     override func viewDidLoad() {
@@ -80,10 +81,9 @@ extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: imageDownloadCollectionViewCellIdentifier, for: indexPath) as! ImageDownloadCollectionViewCell
         
+        cell.imageURL = imageModel.ImageListDatas[indexPath.item]
         return cell
     }
-    
-    
 }
 
 extension ViewController: UICollectionViewDelegate {
