@@ -1,6 +1,6 @@
 #  원티드 프리온보딩 챌린지 iOS 2차과정 사전과제
 
-[원티드 프리온보딩 iOS 챌린지 11월 원티드 바로가기](https://www.wanted.co.kr/events/pre_challenge_ios_2)
+[원티드 프리온보딩 iOS 챌린지 3월 원티드 바로가기](https://www.wanted.co.kr/events/pre_challenge_ios_2)
 
 [원티드 사전과제 노션 바로가기](https://yagomacademy.notion.site/iOS-2-3f670cc9788f4384b000bfe940447d59)
 
